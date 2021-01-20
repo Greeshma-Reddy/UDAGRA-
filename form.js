@@ -60,13 +60,7 @@
 
 			//is signed in
 			
-		}else{
-			
-			alert("No Active User");
-			//no user is signed in
 		}
-		
-		
 		
 	});
 	
@@ -74,28 +68,4 @@
   
 
 
-   /* firebase.initializeApp(config);          
-  firebase.auth().onAuthStateChanged(function(user) {
-    if (user) {
-      // User is signed in.
-    document.getElementById("signIn-div").style.display = "none";
-    document.getElementById("signUp-div").style.display = "none";
-    document.location.href = "page1.html";
    
-
-   }
-    else {
-      // No user is signed in.
-      document.getElementById("signIn-div").style.display = "block";
-      document.getElementById("signUp-div").style.display = "none";
-    }
-      
-  });
-  firebase.auth().onAuthStateChanged(function(user) {
-  var user = firebase.auth().currentUser;
-  if(user != null){
-    var email_id = user.email;
-    document.getElementById("user").innerHTML = "Welcome  : " + email_id;
-  }
- 
-});*/
